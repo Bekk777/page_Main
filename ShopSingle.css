@@ -1,0 +1,416 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100vw;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px 50px 100px;
+    color: #274C5B;
+    font-weight: bold;
+    position: relative;
+    font-family: sans-serif;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    left: 400px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+.header-left {
+    gap: 10px;
+    font-size: 25px;
+
+}
+
+.header-input-conatiner {
+    width: 230px;
+    padding: 3px;
+    justify-content: center;
+    height: 45px;
+    background-color: #FAFAFA;
+    border-radius: 30px;
+    position: absolute;
+    right: 250px;
+    gap: 15px;
+}
+
+.header-input-conatiner input {
+    outline: none;
+    border: none;
+    background-color: #FAFAFA;
+
+}
+
+header button img {
+    width: 20px;
+}
+
+.header-input-conatiner button {
+    border: none;
+    background-color: #7EB693;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.header-right-div button {
+    border: none;
+    background-color: #274C5B;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.header-right-div {
+    width: 130px;
+    height: 45px;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 30px;
+    padding: 0px 15px 0px 5px;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+}
+
+.header-left img {
+    width: 27px;
+    height: 40pX;
+}
+
+/* Shop Single*/
+.About-us-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #274C5B;
+    width: 100vw;
+    height: 50vh;
+    background-image: url(./ShopSingleImg/Image\ \(19\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Pista Div */
+.Pista {
+    width: 100vw;
+    height: 130vh;
+    padding: 100px;
+}
+
+.Pista-top {
+    display: flex;
+}
+
+.Pista-top-left {
+    position: relative;
+}
+
+.Pista-top-left button {
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    width: 70px;
+    height: 27px;
+    border: none;
+    border-radius: 5px;
+    background-color: #274C5B;
+    color: white;
+}
+
+.Pista-top-right {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #274C5B;
+
+    justify-content: center;
+    height: 70vh;
+}
+
+.Pista-top-right img {
+    width: 70px;
+}
+
+.Pista-top-right p {
+    font-weight: bold;
+}
+
+#special-small {
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    width: 70%;
+}
+
+.Pista-narx {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Pista-narx small {
+    text-decoration: line-through;
+}
+
+.Pista-top-right-buttons-conatiner {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.Pista-top-right-buttons-conatiner button:nth-child(2) {
+    width: 70px;
+    height: 42px;
+    background-color: white;
+    border: 2px solid #274C5B;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.Pista-top-right-buttons-conatiner button:nth-child(3) {
+    width: 130px;
+    height: 42px;
+    background-color: #274C5B;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.Pista-bottom {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Pista-bottom div {
+    display: flex;
+    gap: 10px;
+}
+
+.Pista-bottom button:nth-child(1) {
+    width: 200px;
+    height: 45px;
+    border: none;
+    background-color: #274C5B;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.Pista-bottom button:nth-child(2) {
+    width: 177px;
+    height: 45px;
+    border: none;
+    background-color: #EFF6F1;
+    color: #274C5B;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.Pista-bottom small {
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 1px;
+
+}
+
+/* Katta dokon */
+.Katta-shop {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 30px;
+}
+
+.Katta-shop h1 {
+    color: #274C5B;
+    font-size: 37px;
+}
+
+.Magazin-shoptwo-div {
+    padding: 10px;
+    width: 280px;
+    height: 450px;
+    background-color: #FAFAFA;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #274C5B;
+    font-weight: bold;
+}
+
+.Magazin-shoptwo-div small {
+    font-weight: normal;
+}
+
+.Magazin-shoptwo-div button {
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #274C5B;
+    color: white;
+}
+
+.Shopping {
+    display: flex;
+    gap: 20px;
+}
+
+.Magazin-shoptwo-div img {
+    width: 260px;
+    border-radius: 10px;
+    height: 310px;
+}
+
+.Magazin-shoptwo-div div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.Magazin-shoptwo-div div small {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* LAst Banner */
+
+.LAST-Banner {
+    width: 100vw;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.lastbanner-two {
+    width: 77vw;
+    position: absolute;
+    bottom: 110px;
+    border-radius: 27px;
+    height: 270px;
+    background-image: url(./img/Image\ \(6\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.lastbanner-two h1 {
+    color: white;
+    font-size: 40px;
+    width: 55%;
+}
+
+.lastbanner-two-input-container {
+    display: flex;
+    gap: 7px;
+}
+
+.lastbanner-two-input-container button {
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    background-color: #274C5B;
+}
+
+.lastbanner-two-input-container input {
+    outline: none;
+    width: 300px;
+    height: 60px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    gap: 50px;
+    color: #274C5B;
+    justify-content: center;
+}
+
+footer small {
+    color: gray;
+    font-size: 16px;
+}
+
+footer p {
+    font-weight: bold;
+}
+
+.footer-div:nth-child(1) {
+    text-align: right;
+
+}
+
+.footer-div:nth-child(2) {
+    align-items: center;
+    text-align: center;
+}
+
+.footer-div:nth-child(2)>small {
+    width: 70%;
+    line-height: 30px;
+}
+
+.dumaloqlar {
+    display: flex;
+    gap: 10px;
+}
+
+.dumaloqlar div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #274C5B;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

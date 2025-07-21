@@ -1,0 +1,828 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100vw;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px 50px 100px;
+    color: #274C5B;
+    font-weight: bold;
+    position: relative;
+    font-family: sans-serif;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    left: 400px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+.header-left {
+    gap: 10px;
+    font-size: 25px;
+
+}
+
+.header-input-conatiner {
+    width: 230px;
+    padding: 3px;
+    justify-content: center;
+    height: 45px;
+    background-color: #FAFAFA;
+    border-radius: 30px;
+    position: absolute;
+    right: 250px;
+    gap: 15px;
+}
+
+.header-input-conatiner input {
+    outline: none;
+    border: none;
+    background-color: #FAFAFA;
+
+}
+
+header button img {
+    width: 20px;
+}
+
+.header-input-conatiner button {
+    border: none;
+    background-color: #7EB693;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.header-right-div button {
+    border: none;
+    background-color: #274C5B;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.header-right-div {
+    width: 130px;
+    height: 45px;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 30px;
+    padding: 0px 15px 0px 5px;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+}
+
+.header-left img {
+    width: 27px;
+    height: 40pX;
+}
+
+/* header - tugashi */
+/* 100% Natural food boshlanishi */
+.onehundredNatural-food-qismi {
+    background-image: url(./img/image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    padding: 200px 0px 0px 200px;
+    font-family: sans-serif;
+    gap: 20px;
+
+    font-weight: bold;
+}
+
+.onehundredNatural-food-qismi em {
+    color: #7EB693;
+}
+
+.onehundredNatural-food-qismi h1 {
+    font-size: 65px;
+    width: 40%;
+    color: #274C5B;
+}
+
+.onehundredNatural-food-qismi button {
+    border: none;
+    width: 160px;
+    height: 55px;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: #EFD372;
+    color: #274C5B;
+}
+
+/* 100% Natural food tugashi */
+/* 2 ta meva divi boshlanishi */
+.two-fruits {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 60vh;
+
+}
+
+.two-fruits div:nth-child(1) {
+    background-image: url(./img/Image\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    background-size: contain;
+}
+
+.two-fruits div:nth-child(1)>p {
+    font-size: 30px;
+    width: 50%;
+}
+
+.two-fruits div:nth-child(2)>p {
+    font-size: 30px;
+    width: 50%;
+    color: #274C5B;
+}
+
+.two-fruits div:nth-child(2)>em {
+    color: #7EB693;
+}
+
+.two-fruits div:nth-child(2) {
+    background-image: url(./img/Photo\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    background-size: contain;
+}
+
+.two-fruits div em {
+    font-size: 20px;
+}
+
+.two-fruits div {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 80px 0px 0px 50px;
+    width: 470px;
+    height: 250px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* 2 ta meva divni tugashi */
+/* Mandarin-div boshlanishi */
+.Mandarin-div {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F9F8F8;
+    background-image: url(./img/Photo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50%;
+    gap: 30px;
+    color: #274C5B;
+    justify-content: center;
+}
+
+.Mandarin-div em {
+    color: #7EB693;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.Mandarin-div h1 {
+    font-size: 40px;
+    width: 60%;
+}
+
+.Mandarin-div small {
+    letter-spacing: 1px;
+    width: 70%;
+    font-size: 15px;
+}
+
+.Mandarin-div-ichidagi-rasm-containeri {
+    display: flex;
+    gap: 15px;
+}
+
+.Mandarin-div-ichidagi-rasm-containeri div:nth-child(1) {
+    width: 60px;
+    display: flex;
+    height: 60px;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.Mandarin-div-ichidagi-rasm-containeri div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.Mandarin-div-ichidagi-rasm-containeri div:nth-child(2)>p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Mandarin-div-ichidagi-rasm-containeri img {
+    width: 30px;
+    height: 30px;
+}
+
+.Mandarin-div button {
+    width: 150px;
+    height: 45px;
+    border: none;
+    background-color: #274C5B;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+/* Mandarin-div tugashi*/
+/* Magazin div boshlanishi */
+.magazin-div {
+    position: relative;
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    gap: 20px;
+    align-items: center;
+}
+
+.magazin-div em {
+    font-size: 20px;
+    color: #7EB693;
+}
+
+.magazin-div h4 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #274C5B;
+}
+
+.magazin-div div {
+    display: flex;
+    gap: 15px;
+}
+
+.Magazin-shop-div p {
+    color: #274C5B;
+    font-weight: bold;
+}
+
+.Magazin-shop-div img {
+    width: 260px;
+    border-radius: 10px;
+    height: 310px;
+}
+
+.Magazin-shop-div button {
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #274C5B;
+    color: white;
+}
+
+.Magazin-shop-div div {
+    display: flex;
+    align-items: center;
+}
+
+.Magazin-shop-div div small {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.Magazin-shop-div {
+    padding: 10px;
+    width: 280px;
+    height: 450px;
+    background-color: #FAFAFA;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.load-more {
+    position: absolute;
+    bottom: 140px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    background-color: #274C5B;
+    color: white;
+}
+
+/* Magazin div tugashi */
+/* choy-div boshlanishi */
+.choy-div {
+    width: 100vw;
+    height: 130vh;
+    background-image: url(img/Image\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 17px;
+    position: relative;
+    background-size: cover;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.choy-div span {
+    font-weight: bold;
+    color: #274C5B;
+    font-size: 20px;
+}
+
+#smal {
+    position: absolute;
+    top: 430px;
+
+}
+
+.line {
+    width: 900px;
+    position: absolute;
+    bottom: 400px;
+    height: 0.5px;
+    background-color: gray;
+}
+
+.choy-div p {
+    color: #274C5B;
+    font-size: 17px;
+    width: 44%;
+    line-height: 23px;
+}
+
+.squares div {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    border: 2px solid #7EB693;
+    background-color: #F9F8F8;
+}
+
+.squares div p {
+    font-size: 30px;
+}
+
+.squares div small {
+    font-size: 10px;
+}
+
+.squares {
+    display: flex;
+    gap: 37px;
+    position: absolute;
+    bottom: 170px;
+}
+
+.choy-div em {
+    color: #7EB693;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#images {
+    border-radius: 50%;
+    width: 70px;
+}
+
+#Stars {
+    width: 100px;
+}
+
+/* Choy divning tugashi */
+/* Magazin-twoning boshlanishi */
+.Magazin-two {
+    display: flex;
+    flex-direction: column;
+    padding-right: 190px;
+    padding-left: 170px;
+    justify-content: center;
+    width: 100vw;
+    gap: 20px;
+    height: 108vh;
+    background-color: #274C5B;
+}
+
+.Magazin-two-top button {
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #EFD372;
+    color: #274C5B;
+    font-weight: bold;
+}
+
+.Magazin-two-top {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+#offer {
+    font-size: 25px;
+    color: #7EB693;
+    font-style: italic;
+}
+
+.Magazin-shoptwo-div {
+    padding: 10px;
+    width: 280px;
+    height: 450px;
+    background-color: #FAFAFA;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Magazin-shoptwo-div button {
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #274C5B;
+    color: white;
+}
+
+.Shopping {
+    display: flex;
+    gap: 20px;
+}
+
+.Magazin-shoptwo-div img {
+    width: 260px;
+    border-radius: 10px;
+    height: 310px;
+}
+
+.Magazin-shoptwo-div div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.Magazin-shoptwo-div div small {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.banner {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    position: relative;
+}
+
+.banner-bacground {
+    width: 45vw;
+    background-image: url(img/Photo\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-xoshia {
+    font-weight: bold;
+    color: #274C5B;
+}
+
+.banner-xoshia h1 {
+    color: #274C5B;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.banner-xoshia em {
+    color: #7EB693;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.banner-xoshia small {
+    font-weight: normal;
+}
+
+.banner-xoshia {
+    padding: 50px;
+    width: 600px;
+    height: 520px;
+    border-radius: 20px;
+    position: absolute;
+    left: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top: 60px;
+    background-color: white;
+}
+
+/* banner xoshia tugashi */
+/* design boshlanishi */
+.design {
+    width: 100vw;
+    height: 90vh;
+    background-color: #F1F8F4;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.design div:nth-child(1) {
+    background-image: url(./img/Photo\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.design div:nth-child(2) {
+    background-image: url(./img/Photo\ \(5\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.design div:nth-child(3) {
+    background-image: url(./img/Photo\ \(6\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.design div {
+    width: 500px;
+    height: 470px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.design button {
+    border: none;
+    width: 200px;
+    height: 53px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* design tugashi */
+/* last banner boshi */
+.lastbanner {
+    width: 100vw;
+    height: 175vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 100px 180px 0px 180px;
+}
+
+.last-banner-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.last-banner-top h1 {
+    color: #274C5B;
+    width: 50%;
+}
+
+.last-banner-top button {
+    border: 2px solid #274C5B;
+    width: 170px;
+    font-weight: bold;
+    height: 57px;
+    color: #274C5B;
+    font-size: 17px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.pomidor-bodring {
+    display: flex;
+    gap: 20px;
+}
+
+.pomidor-bodring div:nth-child(1) {
+    background-image: url(./img//Photo\ \(13\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.pomidor-bodring div:nth-child(2) {
+    background-image: url(./Image\ \(5\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.pomidor-bodring-inside {
+    padding: 25px;
+    width: 670px;
+    height: 470px;
+    border-radius: 30px;
+
+}
+
+.pomidor-bodring-inside div:nth-child(2) {
+    background-color: white;
+    width: 530px;
+    position: absolute;
+    top: 500px;
+    background-image: none;
+    height: 270px;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px gray;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #274C5B;
+}
+
+.pomidor-bodring-inside div:nth-child(2) p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pomidor-bodring-inside div:nth-child(2) small {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.pomidor-bodring-inside div:nth-child(2) button {
+    width: 170px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #274C5B;
+    background-color: #EFD372;
+}
+
+.pomidor-bodring-inside div:nth-child(1) {
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    gap: 1px;
+    font-weight: bold;
+    background-image: none;
+}
+
+.lastbanner-two {
+    width: 77vw;
+    position: absolute;
+    bottom: 100px;
+    border-radius: 27px;
+    height: 270px;
+    background-color: aqua;
+    background-image: url(./img/Image\ \(6\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.lastbanner-two h1 {
+    color: white;
+    font-size: 40px;
+    width: 55%;
+}
+
+.lastbanner-two-input-container {
+    display: flex;
+    gap: 7px;
+}
+
+.lastbanner-two-input-container button {
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    background-color: #274C5B;
+}
+
+.lastbanner-two-input-container input {
+    outline: none;
+    width: 300px;
+    height: 60px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* footer */
+footer {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    gap: 50px;
+color: #274C5B;
+    justify-content: center;
+}
+
+footer small {
+    color: gray;
+    font-size: 16px;
+}
+
+footer p {
+    font-weight: bold;
+}
+
+.footer-div:nth-child(1) {
+    text-align: right;
+
+}
+
+.footer-div:nth-child(2) {
+    align-items: center;
+    text-align: center;
+}
+
+.footer-div:nth-child(2)>small {
+    width: 70%;
+    line-height: 30px;
+}
+
+.dumaloqlar {
+    display: flex;
+    gap: 10px;
+}
+
+.dumaloqlar div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+background-color: #274C5B;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

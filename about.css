@@ -1,0 +1,512 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100vw;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px 50px 100px;
+    color: #274C5B;
+    font-weight: bold;
+    position: relative;
+    font-family: sans-serif;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    left: 400px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+.header-left {
+    gap: 10px;
+    font-size: 25px;
+
+}
+
+.header-input-conatiner {
+    width: 230px;
+    padding: 3px;
+    justify-content: center;
+    height: 45px;
+    background-color: #FAFAFA;
+    border-radius: 30px;
+    position: absolute;
+    right: 250px;
+    gap: 15px;
+}
+
+.header-input-conatiner input {
+    outline: none;
+    border: none;
+    background-color: #FAFAFA;
+
+}
+
+header button img {
+    width: 20px;
+}
+
+.header-input-conatiner button {
+    border: none;
+    background-color: #7EB693;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.header-right-div button {
+    border: none;
+    background-color: #274C5B;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.header-right-div {
+    width: 130px;
+    height: 45px;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 30px;
+    padding: 0px 15px 0px 5px;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+}
+
+.header-left img {
+    width: 27px;
+    height: 40pX;
+}
+
+/* Banner boshi*/
+.About-us-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #274C5B;
+    width: 100vw;
+    height: 50vh;
+    background-image: url(./Aboutusimg/Image\ \(7\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* salat boshi */
+.salat-conatiner {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.salat-left {
+    width: 50vw;
+    height: 100vh;
+    background-image: url(./Aboutusimg/Image\ \(8\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+}
+
+.salat-right {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    font-weight: bold;
+    color: #274C5B;
+    justify-content: center;
+}
+
+.salat-right em {
+    color: #7EB693;
+}
+
+.salat-right h1 {
+    font-size: 40px;
+    width: 50%;
+}
+
+.salat-right small {
+    width: 70%;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.salat-right-bottom-div-container p {
+    font-size: 17px;
+    width: 55%;
+}
+
+.salat-right-bottom-div-container {
+    display: flex;
+    gap: 10px;
+}
+
+.salat-right-bottom-div-container div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.salat-right-bottom-div-container div img {
+    width: 40px;
+}
+
+.salat-right button {
+    width: 170px;
+    border: none;
+    background-color: #274C5B;
+    color: white;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* Salat div tugashi */
+.Barg {
+    width: 100vw;
+    height: 150vh;
+    background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Barg-top {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    gap: 20px;
+    padding-left: 160px;
+}
+
+.Barg-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Barg-top-right {
+    width: 50%;
+    height: 80vh;
+
+}
+
+.Barg-top-left {
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: bold;
+
+}
+
+.Barg-top-left em {
+    color: #7EB693;
+    font-size: 20px;
+}
+
+.Barg-top-left h1 {
+    font-size: 45px;
+    width: 100%;
+}
+
+.Barg-top-left small {
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.Barg-top-left div {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 27px;
+    background-color: #ECECEC;
+}
+
+.img-div {
+    width: 620px;
+    height: 500px;
+    border-radius: 30px;
+
+    background-image: url(./Aboutusimg/Photo\ \(7\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.Barg-bottom-four-divs {
+    width: 230px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.Barg-bottom-four-divs div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background-color: #ECECEC;
+    border-radius: 10px;
+}
+
+.Barg-bottom-four-divs p {
+    font-weight: bold;
+    color: #274C5B;
+    font-size: 20px;
+}
+
+.Barg-bottom-four-divs small {
+    line-height: 25px;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* Salat div tugashi */
+/* Rasmli Banner boshi */
+.Rasmli-banner {
+    width: 100vw;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 200px;
+    gap: 20px;
+    color: #274C5B;
+}
+
+.Rasmli-banner h1 {
+    font-size: 35px;
+}
+
+.Rasmli-banner small {
+    font-size: 16px;
+    line-height: 25px;
+    width: 80%;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.Rasmli-banner em:nth-child(1) {
+    color: #7EB693;
+    font-size: 25px;
+}
+
+.rasmli-banner-three-div-conatiner img {
+    width: 350px;
+}
+
+.rasmli-banner-three-div-conatiner {
+    display: flex;
+    gap: 20px;
+}
+
+.rasmli-banner-three-div-conatiner div p {
+    font-weight: bold;
+    position: absolute;
+    bottom: 45px;
+    left: 20px;
+}
+
+.rasmli-banner-three-div-conatiner div em {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
+.rasmli-banner-three-div-conatiner div {
+    position: relative;
+    width: 350px;
+    background-color: #ECECEC;
+    height: 470px;
+    border-radius: 25px;
+    color: #274C5B;
+    transition: 0.5s ease all;
+}
+
+.rasmli-banner-three-div-conatiner div:hover {
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+}
+
+/* Sabzovot div boshi */
+.Sabzovot-div {
+    width: 100vw;
+    height: 100vh;
+    background-color: #274C5B;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+.Sabzovot-div p {
+    font-size: 18px;
+}
+
+.Sabzovot-div em {
+    color: #7EB693;
+    font-size: 20px;
+}
+
+.Sabzovot-div-four-pic {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.Sabzovot-div-four-pic div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Sabzovot-div-four-pic img {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.LAST-Banner {
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.lastbanner-two {
+    width: 77vw;
+    position: absolute;
+    bottom: 85px;
+    border-radius: 27px;
+    height: 270px;
+    background-image: url(./img/Image\ \(6\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.lastbanner-two h1 {
+    color: white;
+    font-size: 40px;
+    width: 55%;
+}
+
+.lastbanner-two-input-container {
+    display: flex;
+    gap: 7px;
+}
+
+.lastbanner-two-input-container button {
+    width: 170px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    background-color: #274C5B;
+}
+
+.lastbanner-two-input-container input {
+    outline: none;
+    width: 300px;
+    height: 60px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    gap: 50px;
+    color: #274C5B;
+    justify-content: center;
+}
+
+footer small {
+    color: gray;
+    font-size: 16px;
+}
+
+footer p {
+    font-weight: bold;
+}
+
+.footer-div:nth-child(1) {
+    text-align: right;
+
+}
+
+.footer-div:nth-child(2) {
+    align-items: center;
+    text-align: center;
+}
+
+.footer-div:nth-child(2)>small {
+    width: 70%;
+    line-height: 30px;
+}
+
+.dumaloqlar {
+    display: flex;
+    gap: 10px;
+}
+
+.dumaloqlar div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #274C5B;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

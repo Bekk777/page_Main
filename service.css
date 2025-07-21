@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+
+header {
+    width: 100vw;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px 50px 100px;
+    color: #274C5B;
+    font-weight: bold;
+    position: relative;
+    font-family: sans-serif;
+}
+
+header ul {
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    left: 400px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+.header-left {
+    gap: 10px;
+    font-size: 25px;
+
+}
+
+.header-input-conatiner {
+    width: 230px;
+    padding: 3px;
+    justify-content: center;
+    height: 45px;
+    background-color: #FAFAFA;
+    border-radius: 30px;
+    position: absolute;
+    right: 250px;
+    gap: 15px;
+}
+
+.header-input-conatiner input {
+    outline: none;
+    border: none;
+    background-color: #FAFAFA;
+
+}
+
+header button img {
+    width: 20px;
+}
+
+.header-input-conatiner button {
+    border: none;
+    background-color: #7EB693;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.header-right-div button {
+    border: none;
+    background-color: #274C5B;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+
+.header-right-div {
+    width: 130px;
+    height: 45px;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 30px;
+    padding: 0px 15px 0px 5px;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+}
+
+.header-left img {
+    width: 27px;
+    height: 40pX;
+}
+
+/* Services*/
+.About-us-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #274C5B;
+    width: 100vw;
+    height: 50vh;
+    background-image: url(./Servicesimg/Photo\ \(26\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* PistaPaket */
+.PistaPaket {
+    display: flex;
+    width: 100vw;
+    height: 160vh;
+    color: #274C5B;
+    align-items: center;
+    justify-content: center;
+    padding: 180px 180px 100px 180px;
+
+}
+
+.PistaPaket h1 {
+    font-size: 45px;
+    width: 80%;
+
+}
+
+.PistaPaket p {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.PistaPaket button {
+    width: 170px;
+    height: 50px;
+    font-weight: bold;
+    border: 2px solid #274C5B;
+    color: #274C5B;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.PistaPaket em {
+    color: #7EB693;
+    font-size: 20px;
+
+}
+
+.PistaPaket small {
+    line-height: 20px;
+}
+
+.PistPaket-center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PistPaket-center img {
+    width: 600px;
+
+}
+
+.PistaPaket-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.PistaPaket-left-three-div {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.PistaPaket-left-three-div img {
+    width: 50px;
+    float: right;
+}
+
+.PistaPaket-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.PistaPaket-right img {
+    width: 50px;
+}
+
+.PistaPaket-right-three-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Xoshia Last */
+.Xoshida-last {
+    width: 100vw;
+    height: 120vh;
+    background-image: url(./Servicesimg/Photo\ \(13\).jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #274C5B;
+    align-items: center;
+    padding-top: 180px;
+
+}
+
+.Xoshida-last em {
+    color: #7EB693;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Xoshida-last small {
+    line-height: 27px;
+    font-size: 17px;
+    text-align: center;
+    width: 40%;
+}
+
+.xoshia-square {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #7EB693;
+    margin-top: 10px;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    gap: 50px;
+    color: #274C5B;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+footer small {
+    color: gray;
+    font-size: 16px;
+}
+
+footer p {
+    font-weight: bold;
+}
+
+.footer-div:nth-child(1) {
+    text-align: right;
+
+}
+
+.footer-div:nth-child(2) {
+    align-items: center;
+    text-align: center;
+}
+
+.footer-div:nth-child(2)>small {
+    width: 70%;
+    line-height: 30px;
+}
+
+.dumaloqlar {
+    display: flex;
+    gap: 10px;
+}
+
+.dumaloqlar div {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #274C5B;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
